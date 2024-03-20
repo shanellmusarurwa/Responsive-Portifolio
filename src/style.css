@@ -38,6 +38,7 @@ body {
   font-size: 2.5rem;
   color: var(--text-color);
   font-weight: 600;
+  text-decoration: none;
 }
 .navbar a {
   font-size: 1.7rem;
@@ -64,8 +65,6 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  background-size: cover;
-  background-position: center;
 }
 .home-content {
   max-width: 60rem;
@@ -87,7 +86,7 @@ section {
 }
 .home-content p {
   font-size: 1.6rem;
-  margin: 2rem 0 4rem;
+  margin: 2rem 0 3rem;
 }
 .btn-box {
   position: relative;
@@ -121,7 +120,7 @@ section {
   background: transparent;
   color: var(--main-color);
 }
-.btn-box .btn:nth-child(2) .btn-box .btn:nth-child(2)::before {
+.btn-box .btn:nth-child(2)::before {
   background: var(--bg-color);
 }
 .btn-box .btn::before {
@@ -152,6 +151,7 @@ section {
   align-items: center;
   width: 40px;
   height: 40px;
+  text-decoration: none;
   background: transparent;
   border: 0.2rem solid var(--main-color);
   border-radius: 50%;
@@ -190,4 +190,13 @@ section {
 .home-imgHover:hover {
   background: var(--bg-color);
   opacity: 0.8;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background: var(--second-bg-color);
+  padding-bottom: 6rem;
 }
